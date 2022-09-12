@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Shadow Generator</title>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <!--this is the main container for the two sections-->
+<div class="container">
+    <!--box shadow options parent-->
+<div class="Box-shadow-options">
+<div class="header">
+    Box Shadow Options
+</div>
+
+        <!--this is the main container for all inputs -->
+
+<div class="inputs-container" style="border: 1px solid black;">
+
+<!--horizontal shadow section-->
+<div class="Horizontal-shadow-parent input">
+<div class="label">
+    <span>Horizontal Shadow Length</span>
+    <span>10px</span>
+</div>
+<input type="range" min="-100" max="100" value="10" id="horizon"/>
+
+</div>
+<!--_________________________________________________________-->
+
+<!--Vertical shadow section-->
+<div class="Vertical-shadow-parent input">
+    <div class="label">
+        <span>Vertical Shadow Length</span>
+        <span>10px</span>
+    </div>
+    <input type="range" min="-100" max="100" value="10"  id="vertical"/>
+    
+    </div>
+
+
+    <!--_________________________________________________________-->
+
+<!--Blur Radius section-->
+<div class="Blur-raduis-parent input">
+    <div class="label">
+        <span>Blur Radius</span>
+        <span>10px</span>
+    </div>
+    <input type="range" min="-100" max="100" value="10"  id="blur"/>
+    
+    </div>
+
+        <!--_________________________________________________________-->
+
+<!--Spread Radius section-->
+<div class="Spread-raduis-parent input">
+    <div class="label">
+        <span>Spread Radius</span>
+        <span>10px</span>
+    </div>
+    <input type="range" min="-100" max="100" value="10"  id="spread"/>
+    
+    </div>
+
+
+    <!--Shadow color section-->
+<div class="Spread-raduis-parent input">
+    <div class="label">
+        <span>Shadow Color</span>
+        <span>red</span>
+
+    </div>
+    <input type="color"  id="color"/>
+
+
+    
+    </div>
+</div>
+   
+</div>
+<!--box parent-->
+<div class="box-shadow">
+
+    <div class="box">
+
+    </div>
+</div>
+<div>
+
+</div>
+
+</div>
+<div style="text-align: center;" class="valueContainer">
+    
+
+</div>
+<script src="./script.js"></script>
+    </body>
+</html>
